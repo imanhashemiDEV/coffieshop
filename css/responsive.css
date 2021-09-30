@@ -1,0 +1,115 @@
+
+@media screen and (max-width:992px) {
+
+    .header-text h1{
+        font-size: 20px;
+    }
+
+    .hamburger-menu{
+        display: block;
+      }
+
+      .original-menu ul li{
+          display: none;
+      }
+}
+
+
+@media screen and (max-width:576px) {
+
+
+    .header-text h3 {
+        font-size: 15px;
+      }
+
+
+      .story {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .story-image {
+        width: 100%;
+        order: 1;
+      }
+      
+      .story-text {
+        width: 100%;
+        order: 2;
+        padding-top: 0;
+      }
+      
+      .story-text h1 {
+        font-size: 20px;
+      }
+      
+      .story-text p {
+        font-size: 15px;
+      }
+
+
+      /* choose-coffee */
+
+      .choose-coffee {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .choose-text {
+        width: 100%;
+        padding: 30px;
+      }
+      
+      .choose-image {
+        width: 100%;
+      }
+      
+      .choose-image img {
+        width: 45%;
+        padding: 10px;
+      }
+      
+    
+      .choose-text h1 {
+        font-size: 1.5rem;
+        
+      }
+      
+      .choose-text p {
+        margin: 10px 0 10px;
+        line-height: 2rem;
+        font-size: 1rem;
+        text-align: center;
+      }
+      
+      .choose-text a {
+        font-size: 1rem;
+        padding: .5rem;
+        border-bottom: brown solid 2px;
+      }
+
+
+      /* footer */
+
+      .footer-text h1 {
+        font-size: 1.5rem;
+      }
+
+      .footer-text {
+        width: 80%;
+      }
+
+      .footer-input h1 {
+        font-size: 1rem;
+      }
+
+      .footer-icons h1 {
+        font-size: 1rem;
+      }
+
+      .footer-container {
+    
+        width: 100%;
+      }
+
+}
